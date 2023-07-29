@@ -24,11 +24,9 @@ class MyApp extends StatelessWidget {
 debugShowCheckedModeBanner: false,
         theme: ThemeData(
           iconTheme: IconThemeData(color: Colors.white),
-          primarySwatch: Colors.blue,
         ),
         home:  HomePage(),
       ),
     );
   }
 }
-
